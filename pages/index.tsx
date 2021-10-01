@@ -1,5 +1,4 @@
 import type {
-  NextPage,
   GetServerSideProps,
   GetServerSidePropsContext,
   GetServerSidePropsResult,
@@ -10,13 +9,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import React, { useState } from "react";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  useQuery,
-  gql,
-} from "@apollo/client";
 
 import "antd/dist/antd.css";
 import { Table, Spin } from "antd";
